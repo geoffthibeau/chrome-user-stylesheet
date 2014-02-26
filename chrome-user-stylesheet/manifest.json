@@ -1,0 +1,13 @@
+{
+    "name" : "Custom Stylesheet"
+    , "content_scripts" :
+    [
+        {
+          "matches" : ["*://*/*"]
+          , "css" : ["Custom.css"]
+        }
+    ]
+    , "version" : "0.1.0"
+    , "description" : "User Stylesheet replacement"
+    , "manifest_version" : 2
+}
